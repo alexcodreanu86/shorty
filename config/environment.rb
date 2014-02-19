@@ -14,7 +14,7 @@ require 'SecureRandom'
 require 'pg'
 require 'active_record'
 require 'logger'
-
+require 'uri'
 require 'sinatra'
 require "sinatra/reloader" if development?
 require 'pry'

@@ -12,7 +12,6 @@ gem 'pry-nav'
 gem 'thin'
 gem 'activesupport'
 gem 'activerecord'
-
 gem 'rake'
 
 gem 'shotgun'

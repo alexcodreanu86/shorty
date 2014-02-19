@@ -1,5 +1,8 @@
 <div class="container">
   <h1>Welcome to Shorty!</h1>
+  <% if @message %>
+    <p><%= @message%></p>
+    <% end %>
   <p>Please insert an URL into Shorty to get it shortified</p>
 
   <form action="/generate" method="POST">

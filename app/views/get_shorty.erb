@@ -9,5 +9,6 @@
 
   </form>
 
-  <p> Your shortified URL is <a href = "/<%= @short_url %>">"http://localhost:9393/<%= @short_url %>". </a></p>
+  <p>The long URL for shorty:<%=@shorty.short_url%> is:</p>
+  <p><a href = "<%=@shorty.long_url%>"><%=@shorty.long_url%></a></p>
 </div>
