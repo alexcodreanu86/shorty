@@ -8,6 +8,10 @@
     <input type="submit" value="Generate short URL">
 
   </form>
-
-  <p> Your shortified URL is <a href = "/<%= @short_url %>">"http://localhost:9393/<%= @short_url %>". </a></p>
+  <% if @short_url != nil %>
+    <p> Your shortified URL is: </p>
+    <p><a href = "/<%= @short_url %>">http://localhost:9393/<%= @short_url %></a></p>
+  <% else %>
+    <p>Please enter a URL</p>
+  <%end%>
 </div>
