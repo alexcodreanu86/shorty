@@ -6,7 +6,8 @@ gem 'pg'
 # Sinatra driver
 gem 'sinatra'
 gem 'sinatra-contrib'
-
+gem 'pry'
+gem 'pry-nav'
 # Use Thin for our web server
 gem 'thin'
 gem 'activesupport'
